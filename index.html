@@ -1,0 +1,2033 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabla periodica</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>tabla periodica</title>
+    <style>
+    .td-table{
+    width: 80px;
+    height: 40px;
+    color: #000;
+    background:#f1f1f1;
+    }
+      .sin{
+        text-decoration: none;
+        color: #000;
+         height: 100%;
+           width:100%
+        transition: color 0.3s;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table bgcolor="#fff" width="100%" height="600px" style="empty-cells:hide;animation:animation 3s linear">
+      <tr class="tr-table" align="center" style="font-size:30px">
+        <td class="td-table nometales" title="Hidrogeno">
+          <a href="#H" class="sin">
+            H
+          </a>
+            </td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table nometales" title="Helio">
+          <a href="#He" class="sin" ><div> He </div></a></td>
+      </tr>
+      <tr class="tr-table">
+        <td class="td-table metalesalcalinos" title="Litio">
+          <a href="#Li" class="sin"> Li </a>
+</td>
+        <td class="td-table alcalaniterreos" title="Berilio">
+             <a href="#Be" class="sin"> Be </a>
+          </td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table metaloides" title="Boro">
+            <a href="#B" class="sin"> B </a></td>
+        <td class="td-table nometales" title="Carbono">
+          <a href="#C" class="sin"> C </a>
+        </td>
+        <td class="td-table nometales" title="Nitrogeno">
+          <a href="#N" class="sin"> N </a>
+        </td>
+        <td class="td-table nometales" title="Oxigeno">
+           <a href="#O" class="sin"> O </a> 
+        </td>
+        <td class="td-table halogenos" title="Fluor">
+          <a href="#F" class="sin"> F </a>
+        </td>
+        <td class="td-table gasnoble" title="Neon">
+          <a href="#Ne" class="sin"> Ne </a>
+        </td>
+      </tr>
+      <tr class="tr-table">
+        <td class="td-table metalesalcalinos" title="Sodio">
+          <a href="#Na" class="sin"> Na </a>
+        </td>
+        <td class="td-table alcalaniterreos" title="Magnesio">
+          <a href="#Mg" class="sin"> Mg </a>
+        </td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table"></td>
+        <td class="td-table metales" title="Aluminio">
+          <a href="#Al" class="sin"> Al </a>
+        </td>
+        <td class="td-table  metaloides" title="Silicio">
+          <a href="#Si" class="sin"> Si </a>
+        </td>
+        <td class="td-table nometales" title="Fosforo">
+          <a href="#P" class="sin"> P </a>
+        </td>
+        <td class="td-table nometales" title="Azufre">
+          <a href="#S" class="sin"> S </a>
+        </td>
+        <td class="td-table halogenos" title="Cloro">
+          <a href="#Cl" class="sin"> Cl </a>
+        </td>
+        <td class="td-table gasnoble" title="Argon">
+          <a href="#Ar" class="sin"> Ar </a>
+        </td>
+      </tr>
+      <tr class="tr-table">
+        <td class="td-table metalesalcalinos" title="Potasio">
+          <a href="#K" class="sin"> K </a>
+        </td>
+        <td class="td-table alcalaniterreos" title="Calcio">
+          <a href="#Ca" class="sin"> Ca </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Escancho">
+          <a href="#Sc" class="sin"> Sc </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Titanio">
+          <a href="#Ti" class="sin"> Ti </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Vanadio">
+          <a href="#V" class="sin"> V </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Cromo">
+          <a href="#Cr" class="sin"> Cr </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Magnesio">
+          <a href="#Mn" class="sin"> Mn </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Hierro">
+          <a href="#Fe" class="sin"> Fe </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Cobalto">
+          <a href="#Co" class="sin"> Co </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Niquel">
+          <a href="#Ni" class="sin"> Ni </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Cobre">
+          <a href="#Cu" class="sin"> Cu </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Zinc">
+          <a href="#Zn" class="sin"> Zn </a>
+        </td>
+        <td class="td-table metales" title="Galio">
+          <a href="#Ga" class="sin"> Ga </a>
+        </td>
+        <td class="td-table  metaloides" title="Germanio">
+          <a href="#Ge" class="sin"> Ge </a>
+        </td>
+        <td class="td-table  metaloides" title="Arsenico">
+          <a href="#As" class="sin"> As </a>
+        </td>
+        <td class="td-table nometales" title="Selenio">
+          <a href="#Se" class="sin"> Se </a> 
+        </td>
+        <td class="td-table halogenos" title="Bromo">
+          <a href="#Br" class="sin"> Br </a>
+        </td>
+        <td class="td-table gasnoble" title="Kripton">
+          <a href="#Kr" class="sin"> Kr </a>
+        </td>
+      </tr>
+      <tr class="tr-table">
+        <td class="td-table metalesalcalinos" title="Rubidio"><a href="#Rb" class="sin"> Rb </a></td>
+        <td class="td-table alcalaniterreos" title="Estroncio">
+          <a href="#Sr" class="sin"> Sr </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Ytrio">
+          <a href="#Y" class="sin"> Y </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Zirconio">
+          <a href="#Zr" class="sin"> Zr </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Niobio">
+          <a href="#Nb" class="sin"> Nb </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Molibdeno">
+          <a href="#Mo" class="sin"> Mo </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Tecnecio">
+          <a href="#Tc" class="sin"> Tc </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Rutenio">
+          <a href="#Ru" class="sin"> Ru </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Rodio">
+          <a href="#Rh" class="sin"> Rh </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Paladio">
+          <a href="#Pd" class="sin"> Pd </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Plata">
+          <a href="#Ag" class="sin"> Ag </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Cadmio">
+          <a href="#Cd" class="sin"> Cd </a>
+        </td>
+        <td class="td-table metales" title="Indio">
+          <a href="#In" class="sin"> In </a>
+        </td>
+        <td class="td-table metales" title="Estaño">
+          <a href="#Sn" class="sin"> Sn </a>
+        </td>
+        <td class="td-table  metaloides" title="Antimonio">
+          <a href="#Sb" class="sin"> Sb </a>
+        </td>
+        <td class="td-table  metaloides" title="Telurio">
+          <a href="#Te" class="sin"> Te </a>
+        </td>
+        <td class="td-table halogenos" title="Yodo">
+          <a href="#I" class="sin"> I </a>
+        </td>
+            <td class="td-table gasnoble" title="Xenon">
+              <a href="#Xe" class="sin"> Xe </a>
+            </td>
+      </tr>
+      <tr class="tr-table">
+        <td class="td-table metalesalcalinos" title="Cesio" ><a href="#Sr" class="sin"> Cs </a></td>
+        <td class="td-table alcalaniterreos" title="Bario">
+          <a href="#Ba" class="sin"> Ba </a> 
+        </td>
+        <td class="td-table lantanidos" title="Lantanidos" >
+          <a href="#Lu" class="sin"> Lu </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Hafnio">
+          <a href="#Hf" class="sin"> Hf </a>
+        </td>
+        <td class="td-table metalesdetransicion " title="Tantalo">
+          <a href="#Ta" class="sin"> Ta </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Wolframio">W</td>
+        <td class="td-table metalesdetransicion" title="Renio">
+          <a href="#Re" class="sin"> Re </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Osmio">
+          <a href="#Os" class="sin"> Os </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Iridio">
+          <a href="#Ir" class="sin"> Ir </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Platanio">
+          <a href="#Pt" class="sin"> Pt </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Oro">
+          <a href="#Au" class="sin"> Au </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Mercurio">
+          <a href="#Hg" class="sin"> Hg </a> 
+        </td>
+        <td class="td-table metales" title="Talio">
+          <a href="#Ti" class="sin"> Ti </a> 
+        </td>
+        <td class="td-table metales" title="Plomo">
+          <a href="#Pb" class="sin"> Pb </a>
+        </td>
+        <td class="td-table metales" title="Bismuto">
+          <a href="#Bi" class="sin"> Bi </a>
+        </td>
+        <td class="td-table  metaloides" title="Polonio">
+          <a href="#Po" class="sin"> Po </a>
+        </td>
+        <td class="td-table halogenos" title="Astato">
+          <a href="#At" class="sin"> At </a>
+        </td>
+        <td class="td-table gasnoble" title="Radon">
+          <a href="#Rn" class="sin"> Rn </a>
+        </td>
+      </tr>
+      <tr class="tr-table">
+        <td class="td-table metalesalcalinos" title="Francio">
+          <a href="#Fr" class="sin"> Fr </a>
+        </td>
+        <td class="td-table alcalaniterreos" title="Radio">
+          <a href="#Ra" class="sin"> Ra </a>
+        </td>
+        <td class="td-table actinidos" title="actinidos" >
+          <a href="#Lr" class="sin"> Lr </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Rutherfordio">
+          <a href="#Rf" class="sin"> Rf </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Dubnio">
+          <a href="#Db" class="sin"> Db </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Seaborgio">
+          <a href="#Sg" class="sin"> Sg </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Bohrio">
+          <a href="#Bh" class="sin"> Bh </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Hassio">
+          <a href="#Hs" class="sin"> Hs </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Meitnerio">
+          <a href="#Mt" class="sin"> Mt </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Darmstadtio">
+          <a href="#Ds" class="sin"> Ds </a> 
+        </td>
+        <td class="td-table metalesdetransicion" title="Roentgenio">
+          <a href="#Rg" class="sin"> Rg </a>
+        </td>
+        <td class="td-table metalesdetransicion" title="Copernicio">
+          <a href="#Cn" class="sin"> Cn </a> 
+        </td>
+        <td class="td-table" title="Ununtrio">
+          <a href="#Nh" class="sin"> Nh </a>
+        </td>
+        <td class="td-table metales" title="Flerovio">
+          <a href="#Fl" class="sin"> Fl </a> 
+        </td>
+        <td class="td-table" title="Moscovio">
+          <a href="#Mc" class="sin"> Mc </a>
+        </td>
+        <td class="td-table metales" title="Livermorio">
+          <a href="#Lv" class="sin"> Lv </a>
+        </td>
+        <td class="td-table" title="Teneso">
+          <a href="#Ts" class="sin"> Ts </a>
+        </td>
+        <td class="td-table" title="Oganeson">
+          <a href="#Og" class="sin"> Og </a>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <table width="80%" height="160px" align="CENTER" style="empty-cells:hide;animation:animation 3s linear">
+      <tr class="tr-table">
+        <td class="td-table lantanidos" title="Lanthaum">
+          <a href="#La" class="sin"> La </a>
+        </td>
+        <td class="td-table lantanidos" title="Cerium">
+          <a href="#Ce" class="sin"> Ce </a>
+        </td>
+        <td class="td-table lantanidos" title="Praseodymium">
+          <a href="#Pr" class="sin"> Pr </a>
+        </td>
+        <td class="td-table lantanidos" title="Neodymium">
+          <a href="#Nd" class="sin"> Nd </a>
+        </td>
+        <td class="td-table lantanidos" title="Promethium">
+          <a href="#Pm" class="sin"> Pm </a>
+        </td>
+        <td class="td-table lantanidos" title="Samarium">
+          <a href="#Sm" class="sin"> Sm </a>
+        </td>
+        <td class="td-table lantanidos" title="Europium">
+          <a href="#Eu" class="sin"> Eu </a> 
+        </td>
+        <td class="td-table lantanidos" title="Gadolinium">
+          <a href="#Gd" class="sin"> Gd </a>
+        </td>
+        <td class="td-table lantanidos" title="Terbium">
+          <a href="#Tb" class="sin"> Tb </a>
+        </td>
+        <td class="td-table lantanidos" title="Dysprosium">
+          <a href="#Dy" class="sin"> Dy </a>
+        </td>
+        <td class="td-table lantanidos" title="Holmium">
+          <a href="#Ho" class="sin"> Ho </a>
+        </td>
+        <td class="td-table lantanidos" title="">
+          <a href="#Er" class="sin"> Er </a>
+        </td>
+        <td class="td-table lantanidos">
+          <a href="#Tm" class="sin"> Tm </a>
+        </td>
+        <td class="td-table lantanidos" title="Ytterbium">
+          <a href="#Yb" class="sin"> Yb </a>
+        </td>
+      </tr>
+      <tr class="tr-table">
+        <td class="td-table actinidos" title="Actinium">
+          <a href="#Ac" class="sin"> Ac </a>
+        </td>
+        <td class="td-table actinidos" title="Thorium">
+          <a href="#Th" class="sin"> Th </a>
+        </td>
+        <td class="td-table actinidos" title="Protactinium">
+          <a href="#Pa" class="sin"> Pa </a>
+        </td>
+        <td class="td-table actinidos" title="Uranium">
+          <a href="#U" class="sin"> U </a>
+        </td>
+        <td class="td-table actinidos" title="Neptunium">
+          <a href="#Np" class="sin">Np </a></td>
+        <td class="td-table actinidos" title="Plutonium">
+          <a href="#Pu" class="sin">Pu </a></td>
+        <td class="td-table actinidos" title="Americium">
+          <a href="#Am" class="sin">Am </a></td>
+        <td class="td-table actinidos" title="Curium">
+          <a href="#Cm" class="sin">Cm </a></td>
+        <td class="td-table actinidos" title="Berkelium">
+          <a href="#Bk" class="sin">Bk </a></td>
+        <td class="td-table actinidos" title="Californium">
+          <a href="#Cf" class="sin">Cf </a></td>
+        <td class="td-table actinidos" title="Einstenium">
+          <a href="#Es" class="sin">Es </a></td>
+        <td class="td-table actinidos" title="Fermium">
+          <a class="sin" href="#Fm">Fm</a></td>
+        <td class="td-table actinidos" title="Mandelevium">
+          <a href="#Md" class="sin">Md</a></td>
+        <td class="td-table actinidos" title="Novelium"><a href="#No" class="sin">No </a></td>
+      </tr>
+    </table>
+    <div align="CENTER" id="H" class="modal">
+      <div class="modal-contenido">
+        <h2>Hidr&oacute;geno</h2>
+        <hr>
+        <p>
+          N&uacute;mero at&oacute;mico: 1<br>
+          S&iacute;mbolo: H <br>
+          Masa &aacute;tomica: 1.0 <br>
+      <center>
+        </p>
+          <a href="#" title="Salir">
+            <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px">
+          </a>
+        </center>
+      </div>
+    </div>
+<div align="CENTER" id="He" class="modal">
+   <div class="modal-contenido">
+      <h2>Helio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 2<br> S&iacute;mbolo: He <br> Masa &aacute;tomica: 4.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Li" class="modal">
+   <div class="modal-contenido">
+      <h2>Litio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 3<br> S&iacute;mbolo: Li <br> Masa &aacute;tomica: 6.9 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Be" class="modal">
+   <div class="modal-contenido">
+      <h2>Berilio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 4<br> S&iacute;mbolo: Be <br> Masa &aacute;tomica: 9.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="B" class="modal">
+   <div class="modal-contenido">
+      <h2>Boro</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 5<br> S&iacute;mbolo: B <br> Masa &aacute;tomica: 10.8 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="C" class="modal">
+   <div class="modal-contenido">
+      <h2>Carbono</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 6<br> S&iacute;mbolo: C <br> Masa &aacute;tomica: 12.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="N" class="modal">
+   <div class="modal-contenido">
+      <h2>Nitrogeno</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 7<br> S&iacute;mbolo: N <br> Masa &aacute;tomica: 14.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="O" class="modal">
+   <div class="modal-contenido">
+      <h2>Oxigeno</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 8<br> S&iacute;mbolo: O <br> Masa &aacute;tomica: 16.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="F" class="modal">
+   <div class="modal-contenido">
+      <h2>Fluor</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 9<br> S&iacute;mbolo: F <br> Masa &aacute;tomica: 19.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ne" class="modal">
+   <div class="modal-contenido">
+      <h2>Neon</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 10<br> S&iacute;mbolo: Ne <br> Masa &aacute;tomica: 20.1 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Na" class="modal">
+   <div class="modal-contenido">
+      <h2>Sodio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 11<br> S&iacute;mbolo: Na <br> Masa &aacute;tomica: 23.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Mg" class="modal">
+   <div class="modal-contenido">
+      <h2>Magnesio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 12<br> S&iacute;mbolo: Mg <br> Masa &aacute;tomica: 24.3 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Al" class="modal">
+   <div class="modal-contenido">
+      <h2>Aluminio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 13<br> S&iacute;mbolo: Al <br> Masa &aacute;tomica: 27.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Si" class="modal">
+   <div class="modal-contenido">
+      <h2>Silicio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 14<br> S&iacute;mbolo: Si <br> Masa &aacute;tomica: 28.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="P" class="modal">
+   <div class="modal-contenido">
+      <h2>Fosforo</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 15<br> S&iacute;mbolo: P <br> Masa &aacute;tomica: 31.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="S" class="modal">
+   <div class="modal-contenido">
+      <h2>Azufre</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 16<br> S&iacute;mbolo: S <br> Masa &aacute;tomica: 32.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Cl" class="modal">
+   <div class="modal-contenido">
+      <h2>Cloro</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 17<br> S&iacute;mbolo: Cl <br> Masa &aacute;tomica: 35.5 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ar" class="modal">
+   <div class="modal-contenido">
+      <h2>Argon</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 18<br> S&iacute;mbolo: Ar <br> Masa &aacute;tomica: 40.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="K" class="modal">
+   <div class="modal-contenido">
+      <h2>Potasio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 19<br> S&iacute;mbolo: K <br> Masa &aacute;tomica: 39.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ca" class="modal">
+   <div class="modal-contenido">
+      <h2>Calcio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 20<br> S&iacute;mbolo: Ca <br> Masa &aacute;tomica: 40.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Sc" class="modal">
+   <div class="modal-contenido">
+      <h2>Escandio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 21<br> S&iacute;mbolo: Sc <br> Masa &aacute;tomica: 45.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ti" class="modal">
+   <div class="modal-contenido">
+      <h2>Titanio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 22<br> S&iacute;mbolo: Ti <br> Masa &aacute;tomica: 47.8 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="V" class="modal">
+   <div class="modal-contenido">
+      <h2>Vanadio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 23<br> S&iacute;mbolo: V <br> Masa &aacute;tomica: 51.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Cr" class="modal">
+   <div class="modal-contenido">
+      <h2>Cromo</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 24<br> S&iacute;mbolo: Cr <br> Masa &aacute;tomica: 52.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Mn" class="modal">
+   <div class="modal-contenido">
+      <h2>Manganeso</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 25<br> S&iacute;mbolo: Mn <br> Masa &aacute;tomica: 55.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Fe" class="modal">
+   <div class="modal-contenido">
+      <h2>Hierro</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 26<br> S&iacute;mbolo: Fe <br> Masa &aacute;tomica: 55.8 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Co" class="modal">
+   <div class="modal-contenido">
+      <h2>Cobalto</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 27<br> S&iacute;mbolo: Co <br> Masa &aacute;tomica: 59.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ni" class="modal">
+   <div class="modal-contenido">
+      <h2>Niquel</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 28<br> S&iacute;mbolo: Ni <br> Masa &aacute;tomica: 58.6 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Cu" class="modal">
+   <div class="modal-contenido">
+      <h2>Cobre</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 29<br> S&iacute;mbolo: Cu <br> Masa &aacute;tomica: 63.5 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Zn" class="modal">
+   <div class="modal-contenido">
+      <h2>Cinc</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 30<br> S&iacute;mbolo: Zn <br> Masa &aacute;tomica: 65.3 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ga" class="modal">
+   <div class="modal-contenido">
+      <h2>Galio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 31<br> S&iacute;mbolo: Ga <br> Masa &aacute;tomica: 69.7 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ge" class="modal">
+   <div class="modal-contenido">
+      <h2>Germanio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 32<br> S&iacute;mbolo: Ge <br> Masa &aacute;tomica: 72.6 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="As" class="modal">
+   <div class="modal-contenido">
+      <h2>Arsenico</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 33<br> S&iacute;mbolo: As <br> Masa &aacute;tomica: 75.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Se" class="modal">
+   <div class="modal-contenido">
+      <h2>Selenio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 34<br> S&iacute;mbolo: Se <br> Masa &aacute;tomica: 79.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Br" class="modal">
+   <div class="modal-contenido">
+      <h2>Bromo</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 35<br> S&iacute;mbolo: Br <br> Masa &aacute;tomica: 80.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Kr" class="modal">
+   <div class="modal-contenido">
+      <h2>Kripton</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 36<br> S&iacute;mbolo: Kr <br> Masa &aacute;tomica: 83.7 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Kr" class="modal">
+   <div class="modal-contenido">
+      <h2>Kripton</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 36<br> S&iacute;mbolo: Kr <br> Masa &aacute;tomica: 83.7 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Rb" class="modal">
+   <div class="modal-contenido">
+      <h2>Rubidio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 37<br> S&iacute;mbolo: Rb <br> Masa &aacute;tomica: 85.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Sr" class="modal">
+   <div class="modal-contenido">
+      <h2>Estroncio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 38<br> S&iacute;mbolo: Sr <br> Masa &aacute;tomica: 87.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Y" class="modal">
+   <div class="modal-contenido">
+      <h2>Itrio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 39<br> S&iacute;mbolo: Y <br> Masa &aacute;tomica: 89.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Zr" class="modal">
+   <div class="modal-contenido">
+      <h2>Zirconio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 40<br> S&iacute;mbolo: Zr <br> Masa &aacute;tomica: 91.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Nb" class="modal">
+   <div class="modal-contenido">
+      <h2>Niobio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 41<br> S&iacute;mbolo: Nb <br> Masa &aacute;tomica: 93.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Mo" class="modal">
+   <div class="modal-contenido">
+      <h2>Molibdeno</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 42<br> S&iacute;mbolo: Mo <br> Masa &aacute;tomica: 96.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Tc" class="modal">
+   <div class="modal-contenido">
+      <h2>Tecnecio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 43<br> S&iacute;mbolo: Tc <br> Masa &aacute;tomica: 98.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ru" class="modal">
+   <div class="modal-contenido">
+      <h2>Rutenio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 44<br> S&iacute;mbolo: Ru <br> Masa &aacute;tomica: 101.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Rh" class="modal">
+   <div class="modal-contenido">
+      <h2>Rodio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 45<br> S&iacute;mbolo: Rh <br> Masa &aacute;tomica: 103.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Pd" class="modal">
+   <div class="modal-contenido">
+      <h2>Paladio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 46<br> S&iacute;mbolo: Pd <br> Masa &aacute;tomica: 106.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Ag" class="modal">
+   <div class="modal-contenido">
+      <h2>Plata</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 47<br> S&iacute;mbolo: Ag <br> Masa &aacute;tomica: 108.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Cd" class="modal">
+   <div class="modal-contenido">
+      <h2>Cadmio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 48<br> S&iacute;mbolo: Cd <br> Masa &aacute;tomica: 112.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="In" class="modal">
+   <div class="modal-contenido">
+      <h2>Indio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 49<br> S&iacute;mbolo: In <br> Masa &aacute;tomica: 115.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Sn" class="modal">
+   <div class="modal-contenido">
+      <h2>Estaño</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 50<br> S&iacute;mbolo: Sn <br> Masa &aacute;tomica: 119.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Sb" class="modal">
+   <div class="modal-contenido">
+      <h2>Antimonio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 51<br> S&iacute;mbolo: Sb <br> Masa &aacute;tomica: 122.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Te" class="modal">
+   <div class="modal-contenido">
+      <h2>Telurio</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 52<br> S&iacute;mbolo: Te <br> Masa &aacute;tomica: 127.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="I" class="modal">
+   <div class="modal-contenido">
+      <h2>Yodo</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 53<br> S&iacute;mbolo: I <br> Masa &aacute;tomica: 127.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div align="CENTER" id="Xe" class="modal">
+   <div class="modal-contenido">
+      <h2>Xenon</h2>
+      <hr>
+      <p> N&uacute;mero at&oacute;mico: 54<br> S&iacute;mbolo: Xe <br> Masa &aacute;tomica: 132.0 <br> 
+      <center> </p> <a href="#" title="Salir"> <img src="https://img1.freepng.es/20191121/qa/transparent-arrow-5dd766676f8a20.6016725415743975434569.jpg" alt="ok" width="50px" height="50px"> </a> </center>
+   </div>
+</div>
+<div id="Cs" class="modal">
+  <div class="modal-contenido">
+    <h2>Cesio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:55 <br>
+      simbolo:Cs <br>
+      Masa atomica:132.9054 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ba" class="modal">
+  <div class="modal-contenido">
+    <h2>Bario </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:56 <br>
+      simbolo:Ba <br>
+      Masa atomica:137.327 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Lu" class="modal">
+  <div class="modal-contenido">
+    <h2>Lutecio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:71 <br>
+      simbolo:Lu <br>
+      Masa atomica:174.966 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Hf" class="modal">
+  <div class="modal-contenido">
+    <h2>Hafnio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:72 <br>
+      simbolo:Hf <br>
+      Masa atomica:178.49 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ta" class="modal">
+  <div class="modal-contenido">
+    <h2>Tantalo </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:73 <br>
+      simbolo:Ta <br>
+      Masa atomica:180.9478 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="W" class="modal">
+  <div class="modal-contenido">
+    <h2>Wolframio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:74 <br>
+      simbolo:W <br>
+      Masa atomica:183.84 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Re" class="modal">
+  <div class="modal-contenido">
+    <h2>Renio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:75 <br>
+      simbolo:Re <br>
+      Masa atomica:186.207 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Os" class="modal">
+  <div class="modal-contenido">
+    <h2>Osmio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:76 <br>
+      simbolo:Os <br>
+      Masa atomica:190.23 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ir" class="modal">
+  <div class="modal-contenido">
+    <h2>Iridio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:77 <br>
+      simbolo:Ir <br>
+      Masa atomica:192.217 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Pt" class="modal">
+  <div class="modal-contenido">
+    <h2>Platino </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:78 <br>
+      simbolo:Pt <br>
+      Masa atomica:195.084 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Au" class="modal">
+  <div class="modal-contenido">
+    <h2>Oro </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:79 <br>
+      simbolo:Au <br>
+      Masa atomica:196.9665 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Hg" class="modal">
+  <div class="modal-contenido">
+    <h2>Mercurio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:80 <br>
+      simbolo:Hg <br>
+      Masa atomica:200.59 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Tl" class="modal">
+  <div class="modal-contenido">
+    <h2>Talio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:81 <br>
+      simbolo:Tl <br>
+      Masa atomica:204.3833 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Pb" class="modal">
+  <div class="modal-contenido">
+    <h2>Plomo </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:82 <br>
+      simbolo:Pb <br>
+      Masa atomica:207.2 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Bi" class="modal">
+  <div class="modal-contenido">
+    <h2>Bismuto </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:83 <br>
+      simbolo:Bi <br>
+      Masa atomica:208.9804 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Po" class="modal">
+  <div class="modal-contenido">
+    <h2>Polonio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:84 <br>
+      simbolo:Po <br>
+      Masa atomica:(210) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="At" class="modal">
+  <div class="modal-contenido">
+    <h2>Astato </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:85 <br>
+      simbolo:At <br>
+      Masa atomica:(210) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Rn" class="modal">
+  <div class="modal-contenido">
+    <h2>Radon </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:86 <br>
+      simbolo Rn <br>
+      Masa atomica: 220 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Fr" class="modal">
+  <div class="modal-contenido">
+    <h2>Francio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:87 <br>
+      simbolo:Fr <br>
+      Masa atomica:(223) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ra" class="modal">
+  <div class="modal-contenido">
+    <h2>Radio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:88 <br>
+      simbolo:Ra <br>
+      Masa atomica:(226) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Lr" class="modal">
+  <div class="modal-contenido">
+    <h2>Lawrencio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:103 <br>
+      simbolo:Lr <br>
+      Masa atomica:(262) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Rf" class="modal">
+  <div class="modal-contenido">
+    <h2>Rutherfordio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:104 <br>
+      simbolo:Rf <br>
+      Masa atomica:(261) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Db" class="modal">
+  <div class="modal-contenido">
+    <h2>Dubnio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:105 <br>
+      simbolo:Db <br>
+      Masa atomica:(262) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Sg" class="modal">
+  <div class="modal-contenido">
+    <h2>Seaborgio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:107 <br>
+      simbolo:Sg<br>
+      Masa atomica:(266) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Bh" class="modal">
+  <div class="modal-contenido">
+    <h2>Bohrio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:106 <br>
+      simbolo:Bh <br>
+      Masa atomica:(264) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Hs" class="modal">
+  <div class="modal-contenido">
+    <h2>Hasio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:108 <br>
+      simbolo:Hs <br>
+      Masa atomica:(277) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Mt" class="modal">
+  <div class="modal-contenido">
+    <h2>Maitnerio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:109 <br>
+      simbolo:Mt <br>
+      Masa atomica:(268) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ds" class="modal">
+  <div class="modal-contenido">
+    <h2>Darmstatio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:110 <br>
+      simbolo:Ds <br>
+      Masa atomica:(271) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Rq" class="modal">
+  <div class="modal-contenido">
+    <h2>Roentgenio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:111 <br>
+      simbolo:Rq <br>
+      Masa atomica:(271) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Cn" class="modal">
+  <div class="modal-contenido">
+    <h2>Copernicio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:112 <br>
+      simbolo:Cn <br>
+      Masa atomica:(285) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Nh" class="modal">
+  <div class="modal-contenido">
+    <h2>Nihonio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:113 <br>
+      simbolo:Nh <br>
+      Masa atomica:(284) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Fl" class="modal">
+  <div class="modal-contenido">
+    <h2>Flerovio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:114 <br>
+      simbolo:Fl <br>
+      Masa atomica:(289) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Mc" class="modal">
+  <div class="modal-contenido">
+    <h2>Moscovio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:Mc <br>
+      simbolo:115 <br>
+      Masa atomica:(288) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Lv" class="modal">
+  <div class="modal-contenido">
+    <h2>Livermorio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:116 <br>
+      simbolo:Lv <br>
+      Masa atomica:(292) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ts" class="modal">
+  <div class="modal-contenido">
+    <h2>Teneso </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:116 <br>
+      simbolo:ts <br>
+      Masa atomica:(294) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Og" class="modal">
+  <div class="modal-contenido">
+    <h2>Oganeson </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:118 <br>
+      simbolo:Og <br>
+      Masa atomica:(294) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="La" class="modal">
+  <div class="modal-contenido">
+    <h2>Lantano </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:57 <br>
+      simbolo:La <br>
+      Masa atomica:138.9054 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ce" class="modal">
+  <div class="modal-contenido">
+    <h2>Cerio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:58 <br>
+      simbolo:Ce <br>
+      Masa atomica:140.116 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Pr" class="modal">
+  <div class="modal-contenido">
+    <h2>Praseodimio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:59 <br>
+      simbolo:Pr <br>
+      Masa atomica:140.907 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Nd" class="modal">
+  <div class="modal-contenido">
+    <h2>Neodimio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:60 <br>
+      simbolo:Nd <br>
+      Masa atomica:144.242 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Pm" class="modal">
+  <div class="modal-contenido">
+    <h2>Prometio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:61 <br>
+      simbolo:Pm <br>
+      Masa atomica:(145) <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Sm" class="modal">
+  <div class="modal-contenido">
+    <h2>Samario </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:62 <br>
+      simbolo:Sm <br>
+      Masa atomica:150.36 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Eu" class="modal">
+  <div class="modal-contenido">
+    <h2>Europio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:63 <br>
+      simbolo:Eu <br>
+      Masa atomica:151.964 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Gd" class="modal">
+  <div class="modal-contenido">
+    <h2>Gadolinio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:64 <br>
+      simbolo:Gd <br>
+      Masa atomica:157.25 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Tb" class="modal">
+  <div class="modal-contenido">
+    <h2>Terbio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:65 <br>
+      simbolo:Tb <br>
+      Masa atomica:158.9252 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Dy" class="modal">
+  <div class="modal-contenido">
+    <h2>Disprosio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:66 <br>
+      simbolo:Dy <br>
+      Masa atomica:162.500 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ho" class="modal">
+  <div class="modal-contenido">
+    <h2>Holmio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:67 <br>
+      simbolo:Ho <br>
+      Masa atomica:164.9303 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Er" class="modal">
+  <div class="modal-contenido">
+    <h2>Erbio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:68 <br>
+      simbolo:Er <br>
+      Masa atomica:167.259 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Tm" class="modal">
+  <div class="modal-contenido">
+    <h2>Tulio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:68 <br>
+      simbolo:Tm <br>
+      Masa atomica:168.9342 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Yb" class="modal">
+  <div class="modal-contenido">
+    <h2>Iterbio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico:70 <br>
+      simbolo:Yb <br>
+      Masa atomica:173.054 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Ac" class="modal">
+  <div class="modal-contenido">
+    <h2>Actinium </h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 89 <br>
+      simbolo: Ac <br>
+      Masa atomica: 227 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Th" class="modal">
+  <div class="modal-contenido">
+    <h2>Thorium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 90 <br>
+      simbolo: Th <br>
+      Masa atomica: 232<br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Pa" class="modal">
+  <div class="modal-contenido">
+    <h2>Proctactinium </h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 91 <br>
+      simbolo: Pa <br>
+      Masa atomica: 231 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="U" class="modal">
+  <div class="modal-contenido">
+    <h2>Uranio </h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 92 <br>
+      simbolo: U <br>
+      Masa atomica: 238 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Np" class="modal">
+  <div class="modal-contenido">
+    <h2>Neptunium </h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 93 <br>
+      simbolo: Np <br>
+      Masa atomica: 237<br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Pu" class="modal">
+  <div class="modal-contenido">
+    <h2>Plutonium </h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 94 <br>
+      simbolo: Pu <br>
+      Masa atomica: 244 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Am" class="modal">
+  <div class="modal-contenido">
+    <h2>Americium </h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 95 <br>
+      simbolo: Am <br>
+      Masa atomica: 243 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Cm" class="modal">
+  <div class="modal-contenido">
+    <h2>Curium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 96 <br>
+      simbolo: Cm <br>
+      Masa atomica: 247 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Bk" class="modal">
+  <div class="modal-contenido">
+    <h2>Berkelium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 97 <br>
+      simbolo: Bk <br>
+      Masa atomica: 247 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Cf" class="modal">
+  <div class="modal-contenido">
+    <h2>Californium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 98 <br>
+      simbolo: Cf <br>
+      Masa atomica: 251 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Es" class="modal">
+  <div class="modal-contenido">
+    <h2>Einstenium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 99 <br>
+      simbolo: Es <br>
+      Masa atomica: 257 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Fm" class="modal">
+  <div class="modal-contenido">
+    <h2>Fermium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 100 <br>
+      simbolo: Fm <br>
+      Masa atomica: 257 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="Md" class="modal">
+  <div class="modal-contenido">
+    <h2>Mandelevium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 101 <br>
+      simbolo: Md <br>
+      Masa atomica: 258 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+<div id="No" class="modal">
+  <div class="modal-contenido">
+    <h2>Novelium</h2>
+    <hr>
+    <p align="center">
+      Numero atomico: 102 <br>
+      simbolo: No <br>
+      Masa atomica: 259 <br>
+    </p>
+    <center>
+      <a href="#" title="salir">
+        <img src="https://img1.freepng.es/20200215/gay/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg
+" widht="50px" height="50px" alt="ok">
+   
+       </a>
+     </center>
+    </div>
+  </div>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
